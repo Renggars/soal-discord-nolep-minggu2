@@ -15,11 +15,11 @@ for (let i = 0; i < input.length; i++) {
             console.log(`Nomor ID : ${input[i][j]}`)
         } else if (j === 1) {
             console.log(`Nama Lengkap : ${input[i][j]}`)
-        } else if (j === 2) {
-            console.log(`TTL : ${input[i][j]}`)
-        } else {
+        } else if ( j === 2) {
+            console.log(`TTL : ${input[i][2]}` + ' ' + `${input[i][3]}`)
+        } else if ( j === 3 ){
+        } else
             console.log(`Hobi: ${input[i][j]}`)
-        }
     }
     console.log('');
 }
